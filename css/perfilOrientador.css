@@ -1,0 +1,130 @@
+body{
+    background-color: #F2F2F2;
+}
+
+/* navbar */
+
+    .navbar-custom {
+        background-color: #2C395A; 
+        padding: 0.5rem 1rem;
+        color: white;
+    }
+
+    /* icon menu */
+        .navbar-toggler {
+            
+            border-color: rgb(241, 240, 240);  
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Ícone branco */
+        }
+
+        /* menu */
+
+            /* header */
+            .offcanvas-header{
+                background-color: #243358; 
+                box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.3);
+            }
+
+            /* body */
+            .offcanvas-body{
+                font-size: 1.2vw;
+            }   
+
+            .nav-item:hover{
+                font-weight: 600;
+            }
+
+        /* (fim) menu */
+    /* (fim) menu button */
+
+    /* titulo navbar */
+    .navbar-brand{
+        color: white;
+    }
+
+    /* funções de aumento/redução de fonte */
+    .d-fonte-ajuste{
+        gap: 1vw;
+    }
+
+    /* icon perfil */
+    .icon-profile {
+        color: white; /* Cor do ícone de perfil */
+        font-size: 7vh; /* Tamanho do ícone */
+    }
+
+/* (fim) navbar */
+
+/* Conteudo */
+
+    .row-conteudo{
+        margin-top: 10vh;
+    }
+
+    /* botão voltar */
+    .btn-voltar{
+        padding: 0; 
+        width: 3.5vw;
+        height: 5vh; 
+        background-color: #2C395A;
+        border-radius: 1vh;
+    }
+
+    /* coluna perfil */
+
+        /* imagem */
+        .col-perfil img{
+            margin-bottom: 3vh;
+            width: 35vh;
+        }
+
+        /* texto */
+        .col-perfil p{
+            font-size: 3.3vh;
+        }
+
+        /* email orientador */
+        .email {
+            padding: 0 1.5vh;
+            display: inline-block; 
+            margin: 0 auto; 
+            text-align: center; 
+            border-radius: 1vw; 
+            border: 0.4vh solid #2e2e2e;
+        }
+    /* (fim) coluna perfil */
+
+    /* coluna descrição */
+
+        .col-descricao{
+            padding: 0 15vw;
+        }
+
+        /* nome curso */
+        .etiqueta {
+            padding: 0.5em 1em;
+            background-color: #2C395A;
+            color: white;
+            border-radius: 1vw;
+        }
+
+        /* texto descrição */
+        .descricao {
+            /* alinhamento */
+                padding: 2vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            /* estilização */
+                border: 3px solid #F2F2F2;
+                border-color: #2C395A;
+                font-size: 2.7vh;
+                border-radius: 1vw;
+        }
+    /* (fim) coluna descrição */
+
+/* (fim) Conteudo */

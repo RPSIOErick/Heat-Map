@@ -1,0 +1,116 @@
+body{
+    background-color: #F2F2F2;
+}
+
+/* navbar */
+
+    .navbar-custom {
+        background-color: #2C395A; 
+        padding: 0.5rem 1rem;
+        color: white;
+    }
+
+    /* icon menu */
+        .navbar-toggler {
+            
+            border-color: rgb(241, 240, 240);  
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Ícone branco */
+        }
+
+        /* menu */
+
+            /* header */
+            .offcanvas-header{
+                background-color: #243358; 
+                box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.3);
+            }
+
+            /* body */
+            .offcanvas-body{
+                font-size: 1.2vw;
+            }   
+
+            .nav-item:hover{
+                font-weight: 600;
+            }
+
+        /* (fim) menu */
+    /* (fim) menu button */
+
+    /* titulo navbar */
+    .navbar-brand{
+        color: white;
+    }
+
+    /* funções de aumento/redução de fonte */
+    .d-fonte-ajuste{
+        gap: 1vw;
+    }
+
+    /* icon perfil */
+    .icon-profile {
+        color: white; /* Cor do ícone de perfil */
+        font-size: 7vh; /* Tamanho do ícone */
+    }
+
+
+/* (fim) navbar */
+
+/* Conteudo */
+    .row-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30vh;
+    }
+
+    /* coluna texto */
+        #col-text{
+            font-size: 1.3vw;
+            margin-bottom: 5vh;
+        }
+
+    /* funções */
+        #row-functions{
+            /* alinhamento */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4vh;
+
+            /* tamanho */
+            width: 70%; 
+            height: 20%;
+            font-size: 1.7vw;
+
+            /* estilização */
+            color: #F2F2F2;
+        }
+
+        /* icones */
+        #row-functions ion-icon{
+            color: #F2F2F2;
+            font-size: 10vh;
+        }
+
+        /* colunas funções */
+        .col-3 {
+            flex: 1; 
+            text-align: center; 
+            margin: 0;
+            background-color: #34497E;
+            padding: 5vh;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 2vh;
+
+            cursor: pointer;
+        }
+
+        .col-3:hover{
+            background-color: #243765;
+        }
+
+/* (fim) Conteudo */
